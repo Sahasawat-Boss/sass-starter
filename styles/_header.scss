@@ -1,0 +1,34 @@
+//* Mixin +++++++++++++++++++
+@mixin flexColumnCenter{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    @include flexColumnCenter();
+
+    background: rgb(116, 116, 240);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: $textColorWhite;
+
+    button {
+        background: $redBtn;
+        border-radius: 1rem;
+        padding: 15px 50px;
+
+        &:hover {
+            background: $blueBtn;
+            cursor: pointer;
+        }
+
+        &::after {
+            content: " Helloooooo";
+        }
+    }
+}
