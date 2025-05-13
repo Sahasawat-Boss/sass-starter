@@ -2,8 +2,9 @@
 @import './header';
 
 
-.contact {
-    @include flexColumnCenter();
 
-    background: rgb(198, 198, 198);
+.contact {
+
+    @include flexCenter(row, red)
+
 }

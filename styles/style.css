@@ -1,13 +1,11 @@
 header {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(96, 96, 178);
+  flex-direction: column;
+  background: rgb(98, 98, 234);
   font-size: 20px;
-  display: flex;
-  justify-content: center;
   color: rgb(255, 255, 255);
 }
 header button {
@@ -26,8 +24,8 @@ header button::after {
 .contact {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(198, 198, 198);
+  flex-direction: row;
+  background: red;
 }/*# sourceMappingURL=style.css.map */

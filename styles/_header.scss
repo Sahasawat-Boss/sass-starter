@@ -1,20 +1,18 @@
 //* Mixin +++++++++++++++++++
-@mixin flexColumnCenter{
+@mixin flexCenter($direction, $background){
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: $direction;
+    background: $background;
 }
 
 header {
 
-    @include flexColumnCenter();
+    @include flexCenter(column, rgb(98, 98, 234));
 
-    background: rgb(96, 96, 178);
     font-size: 20px;
-    display: flex;
-    justify-content: center;
     color: $textColorWhite;
 
     button {
