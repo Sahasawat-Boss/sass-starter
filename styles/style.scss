@@ -1,0 +1,19 @@
+$redBtn: rgb(189, 5, 5);
+$blueBtn: rgb(5, 218, 15);
+
+header {
+    background: blue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+header button{
+    background: $redBtn;
+}
+
+.contact button{
+    background: $blueBtn;
+}
