@@ -8,7 +8,7 @@
     background: $background;
 }
 
-header {
+.header1 {
 
     @include flexCenter(column, rgb(98, 98, 234));
 
