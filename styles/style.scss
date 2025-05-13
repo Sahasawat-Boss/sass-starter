@@ -2,11 +2,8 @@
 @import './header';
 
 
-.contact button {
-    background: $blueBtn;
-}
+.contact {
+    @include flexColumnCenter();
 
-.flex-col {
-    display: flex;
-    flex-direction: column;
+    background: rgb(198, 198, 198);
 }

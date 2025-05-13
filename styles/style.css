@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(116, 116, 240);
+  background: rgb(96, 96, 178);
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -23,11 +23,11 @@ header button::after {
   content: " Helloooooo";
 }
 
-.contact button {
-  background: rgb(8, 92, 202);
-}
-
-.flex-col {
+.contact {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(198, 198, 198);
 }/*# sourceMappingURL=style.css.map */
