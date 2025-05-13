@@ -1,19 +1,37 @@
+//* 1. SASS Variables
 $redBtn: rgb(189, 5, 5);
-$blueBtn: rgb(5, 218, 15);
+$blueBtn: rgb(0, 245, 12);
+$textColor: rgb(125, 9, 119);
 
 header {
-    background: blue;
+    background: rgb(116, 116, 240);
     font-size: 20px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: $textColor;
     padding: 20px;
+
+    button {
+        background: $redBtn;
+        border-radius: 1rem;
+        padding: 10px;
+
+        &:hover {
+            background: $blueBtn;
+            cursor: pointer;
+        }
+
+        &::after {
+            content: " Helloooooo";
+        }
+    }
 }
 
-header button{
-    background: $redBtn;
-}
-
-.contact button{
+.contact button {
     background: $blueBtn;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }

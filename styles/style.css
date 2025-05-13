@@ -1,16 +1,29 @@
 header {
-  background: blue;
+  background: rgb(116, 116, 240);
   font-size: 20px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(125, 9, 119);
   padding: 20px;
 }
-
 header button {
   background: rgb(189, 5, 5);
+  border-radius: 1rem;
+  padding: 10px;
+}
+header button:hover {
+  background: rgb(0, 245, 12);
+  cursor: pointer;
+}
+header button::after {
+  content: " Helloooooo";
 }
 
 .contact button {
-  background: rgb(5, 218, 15);
+  background: rgb(0, 245, 12);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
